@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mario Strikers Scoreboard</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Mario Strikers World Cup</h1>
+
+    <section class="teams-input">
+        <h2>Enter Team Names:</h2>
+        <input type="text" id="team1" placeholder="Team 1">
+        <input type="text" id="team2" placeholder="Team 2">
+        <input type="text" id="team3" placeholder="Team 3">
+        <input type="text" id="team4" placeholder="Team 4">
+        <button onclick="initializeTeams()">Start Tournament</button>
+    </section>
+
+    <section class="matches" style="display: none;">
+        <!-- Matches will be generated here by JavaScript -->
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
